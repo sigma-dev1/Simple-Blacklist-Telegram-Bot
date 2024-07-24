@@ -40,9 +40,9 @@ How to get api_id and api_hash?
 3. You will get basic addresses as well as the api_id and api_hash parameters required for user authorization.
 4. For the moment each number can only have one api_id connected to it.
 '''
-api_id = 111111 # put your api_id
-api_hash = "" # put your api_hash
-api_key = "" # paste your bot token given from @BotFather
+api_id = 29952679 # put your api_id
+api_hash = "9d2a052323ac5f0991a9e5dc6b958d5e" # put your api_hash
+api_key = "6772172788:AAGLyDd0BBgYQKC8JxFiEZ5R8C6kwOPu0Ic" # paste your bot token given from @BotFather
 
 with Client("my_account", api_id, api_hash, api_key) as app:
     pass
