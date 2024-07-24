@@ -56,7 +56,7 @@ with Client("my_account", api_id, api_hash, api_key) as app:
 ban = True # if set true the bot will ban the user blacklisted when will join in the group, turn False if you don't want him banned.
 
 # this variable is needed to execute the commands: /block and /unblock
-owner = [1234567890] # put your account telegram id here.
+owner = [6738108985] # put your account telegram id here.
 
 
 
@@ -80,7 +80,7 @@ async def blacklist(client, message):
     if exists:
         if ban: await app.ban_chat_member(message.chat.id, message.from_user.id)
         await message.reply(
-            f"<b>{message.from_user.first_name}</b> is on blacklist because its defined as dangerous.")
+            f"<b>{message.from_user.first_name}</b> is on blacklist because its define6738108985rous.")
 
     # save database's edit
     database.commit()
